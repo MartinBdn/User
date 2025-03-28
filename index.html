@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Ressourcerie de ST-CLOUD</title>
+    <!-- Ajouter la police Boldonse -->
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif; /* Utilisation de la police Open Sans */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, footer {
+            background: #00B8D4;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        h1 {
+            font-family: 'Boldonse', sans-serif; /* Application de la police Boldonse uniquement au titre */
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #00B8D4;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #00B8D4;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La Ressourcerie de St Cloud</h1>
+        <p>DONNER UNE SECONDE VIE À VOS OBJETS DU QUOTIDIEN</p>
+        <img src="https://mail.google.com/mail/u/0?ui=2&ik=19f0ab2627&attid=0.1&permmsgid=msg-f:1827842145220571151&th=195dccbf2b5c300f&view=fimg&fur=ip&permmsgid=msg-f:1827842145220571151&sz=s0-l75-ft&attbid=ANGjdJ-qla5nTpFBB5QHpK6a-qsvSHdg6WDIBZc1nV6UZXA7-7jd8UeD2iYqVjcNaZg8pkKBmar0Gn1mdiR_NTm9c71GIgatO1n7cITApxSYB7N0bbPfNppF7pnxEwY&disp=emb&zw" alt="Image" style="position: absolute; top: 0; left: 0;" width="100">
+    </header>
+
+    <div class="container">
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="qui-sommes-nous.html">Qui sommes-nous ?</a>
+            <a href="nous-soutenir.html">Nous Soutenir</a>
+            <a href="nous-retrouver.html">Nous Retrouver</a>
+        </nav>
+
+        <section>
+            <h2>Bienvenue à la Ressourcerie de St Cloud</h2>
+            <p>La ressourcerie de Saint-Cloud est un lieu où l’on donne une seconde vie aux objets pour réduire les déchets et promouvoir une consommation responsable.
+        
+                Nos principales missions sont :<br>
+                <br>
+                • Collecter : Récupérer les objets dont les gens souhaitent se débarrasser.<br>
+                • Réutiliser : Remettre en vente des objets en bon état dans des espaces de seconde main.<br>
+                • Recycler : Transformer les matériaux non réutilisables en nouveaux produits.<br>
+                • Sensibiliser : Informer et éduquer le public sur la réduction des déchets et les pratiques écoresponsables.<br>
+                <br>
+                En revalorisant les objets, la ressourcerie contribue à la protection de l’environnement et au développement d’une économie circulaire.
+                <br>
+                <br>
+            </p>
+        </section>
+
+        <section style="text-align: center;">
+            <h2>Horaires d'ouverture</h2>
+            <p><strong>Vente :</strong> <br>
+                • Lundi 15h-19h <br>
+                • Mercredi 15h-19h <br>
+                • Samedi 15h-19h 
+            </p>
+            <p><strong>Accueil des dons :</strong> <br>
+                • Mercredi 15h-18h <br>
+                • Samedi 15h-18h
+                <br>
+                <br>
+            </p>
+        </section>
+
+        <section>
+            <h2>L'Organisme en quelques photos</h2>
+        
+            <div class="image-container">
+                <img src="https://www.saintcloud.fr/sites/st-cloud/files/images-actualites/ressourcerie.jpg" alt="Image 1">
+                <img src="https://cdn.helloasso.com/img/photos/0006_ressstcloud-11-5a3abe39691148afa082e75d387c4d3b.jpg" alt="Image 2">
+                <img src="https://pbs.twimg.com/media/GZ7ka-WXYAA5mFd.jpg" alt="Image 3">
+                <img src="https://www.parisouestladefense.fr/app/uploads/2025/01/mini_IMG_3237.png" alt="Image4">
+            </div>
+        </section>
+        
+        <style>
+            .image-container {
+                display: flex;
+                overflow: hidden;
+                width: 100%;
+            }
+        
+            .image-container img {
+                width: 100%;
+                animation: slide 30s infinite;
+            }
+        
+            @keyframes slide {
+                0% { transform: translateX(0); }
+                25% { transform: translateX(-100%); }
+                50% { transform: translateX(-200%); }
+                75% { transform: translateX(-300%); }
+                100% { transform: translateX(0); }
+            }
+        </style>
+
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2025 La Ressourcerie de St Cloud - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
